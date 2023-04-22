@@ -4,6 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	<style>
+		fieldset{
+			padding: 0 1em 1em 1em;
+		}
+	</style>
 </head>
 <body>
 	<h2>TEXT</h2>
@@ -21,10 +26,11 @@
 	<table border="1" width="800 height="800 align="center">
 
 		<tr>
-		    <th colspan="12"> Spot price (per ounce) at the beginning of each quarter </th>
+		    <th colspan="12"> Spot price (per ounce) at the beginning of each quarter (2022) 
+		    </th>
 		</tr>
 	  <tr>
-		<th rowspan="2">Metal Type</th>
+		 <th rowspan="2">Metal Type</th>
 		 <th colspan="2">First half 2022 </th>
 		 <th colspan="2">Second Half 2022</th>
 	  </tr>
@@ -50,7 +56,7 @@
 	   <td colspan="1"> $21.83 </td>
 	   <td colspan="1"> $18.20 </td>
 	   <td colspan="1"> $23.65 </td>
-	  </tr>
+	   </tr>
 
 	  <tr>
 	   <td colspan="1">Platinum</td>
@@ -72,40 +78,113 @@
 
 
     <h2> LIST </h2>
+    <ul>
+
+    <li>
     <img src="https://assets.goldeneaglecoin.com/resource/productimages/GEStock1989o.jpg" height="150" width="150"/>
+    </li>
+
+    <br>
+
     <a href="https://findbullionprices.com/collection/1-oz-Gold-Coins/" target="_blank"> Browse Gold Coins</a>
     
 
-    <ul>
+<ul>
     	<li> Gold Bullion </li>
     	<li> Generic Coins </li>
     	<li> Sovereign Issued </li>
-    <ul>
+    
     <ol>
     	<li> American Mint </li>
-    	<li> Germania Mint </li>
-    	<li> Austrian Mint </li>
+    	<li> Staatliche Münze Berlin</li>
+    	<li> Münze Österreich </li>
     </ol>
 </ul>
 </ul>
-    
-    <img src="https://i.usacoinbook.com/img/main/1/1/13/1677453124465565391a07fdn.jpg" height="150" width="150"/>
+    <ul>
+  <li>  
+  	<img src="https://i.usacoinbook.com/img/main/1/1/13/1677453124465565391a07fdn.jpg" height="150" width="150"/>
+  </li>
+
+    <br>
+
     <a href="https://findbullionprices.com/collection/1-oz-Silver-Coins/" target="_blank"> Browse Silver Coins</a>
     
 
-    <ul>
+<ul>
     	<li> Silver Bullion </li>
     	<li> Generic Coins </li>
     	<li> Sovereign Issued </li>
-    <ul>
+    
     <ol>
-    	<li> American Mint </li>
-    	<li> Germania Mint </li>
-    	<li> Austrian Mint </li>
+    	<li> Perth Mint </li>
+    	<li> South African Mint</li>
+    	<li> The Royal Mint </li>
     </ol>
 </ul>
 </ul>
 
+<h2>FORM</h2>
+<form>
+	<fieldset>
+<label for="First name">First name: </label>
+<input type="text" name="First Name">
+
+<label for="Last name">Last name: </label>
+<input type="text" name="Last Name">
+
+</form>
+<br>
+<br>
+<form>
+	<label for="metal"> Favorite metal: </label>
+<select name="metal" id="metal">
+	<option> Gold </option>
+	<option> Silver </option>
+	<option> Platinum </option>
+	<option> Palladium </option>
+</select>
+
+<br>
+<br>
+
+<legend> I own these metals: </legend>
+<input type="checkbox" name="Gold" id="Gold" value="Gold">
+<label for="Gold">Gold</label>
+
+<input type="checkbox" name="Silver" id="Silver" value="Silver">
+<label for="Silver">Silver</label>
+
+<input type="checkbox" name="Platinum" id="Platinum" value="Platinum">
+<label for="Platinum">Platinum</label>
+
+<input type="checkbox" name="Palladium" id="Palladium" value="Palladium">
+<label for="Palladium">Palladium</label>
+
+<br>
+<br>
+
+<legend> Size I prefer: </legend>
+<input type="radio" name="Size" id="Fractional" value="Fractional">
+<label for="Fractional">Fractional</label>
+
+<input type="radio" name="Size" id="One ounce" value="One ounce">
+<label for="One ounce">One ounce</label>
+
+<input type="radio" name="Size" id="Ten ounce" value="Ten ounce">
+<label for="Ten ounce">Ten ounce</label>
+
+<input type="radio" name="Size" id="Kilo" value="Kilo">
+<label for="Kilo">Kilo</label>
+
+<br>
+<br>
+
+<input type="submit" name="Submit" id="Submit form" value="Submit form">
+
+</fieldset>
+
+</form>
 
 
 </body>
